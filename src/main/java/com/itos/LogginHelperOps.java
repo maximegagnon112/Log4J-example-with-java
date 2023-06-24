@@ -18,7 +18,7 @@ import org.apache.log4j.Logger;
 		try{
 			obj.divide();
 		}catch(ArithmeticException ex){
-			logger.debug("Sorry, something wrong in your calculation!", ex);
+			logger.fatal("Sorry, something wrong in your calculation!", ex);
 		}
 		
 		
