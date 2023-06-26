@@ -28,9 +28,8 @@ public class LoggingHelper{
 			logger.info("This is info  log ...");
 		}
 		
-		logger.warn("This is warn log ...");
+		logger.warn(logger.getClass()	+ " This is warn log ...");
 		logger.error("This is error log... ");
-		logger.fatal("This is fatal log ...");
 		
 	}
 	
