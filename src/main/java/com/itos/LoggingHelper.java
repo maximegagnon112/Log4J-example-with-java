@@ -25,7 +25,8 @@ public class LoggingHelper{
 		}
 		
 		if(logger.isInfoEnabled()){
-			logger.info("This is info  log ...");
+			logger.info("This is info  log ...",
+					new NullPointerException("Null pointer exception"));
 		}
 		
 		logger.warn(logger.equals("null")	+ " This is warn log ...");
