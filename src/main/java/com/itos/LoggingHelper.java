@@ -21,7 +21,6 @@ public class LoggingHelper{
 	private void log(){
 		
 		if(logger.isDebugEnabled()){
-			logger.debug("This is debug log..");
 		}
 		
 		if(logger.isInfoEnabled()){
